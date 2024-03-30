@@ -5,11 +5,11 @@ body{
 }
 
 .calculadora{
-background: #ccc;
+    background: #ccc;
     width: 250px;
     margin: 0, auto;
     border: 1px solid #ccc;
-    padding: 20px;
+    padding: 40px;
     border-radius: 20px;
     box-shadow: 25px 25px 20px rgba(0, 0, 0, 0.1);
     display: inline-block;
@@ -21,17 +21,55 @@ background: #ccc;
 }
 
 input[type="button"]{
-    width: 39px;
-    height: 39px;
-    font-size: 18px;
+    width: 49px;
+    height: 49px;
+    font-size: 28px;
     margin: 5px;
     cursor: pointer;
 }
+label{
+    font-size: 30px;
+}
 
 .textos input{
-    margin-top: 5px;
-    height: 20px;
-    width: 85%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 30px;
+    width: 94%;
+}
+
+footer{
+    display:flex;
+    position: fixed;
+    left: 45.4%;
+    top: 93%;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    font-family: "Roboto", Sans-serif;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 
+.linkedin{
+    order: 1;
+    margin-right: 8px;
+}
+
+p{
+    order: 2;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #090;
+}
+
+.github{
+    order: 3;
+    margin-left: 8px;
+}
+
+.imagenes-footer{
+    width: 30px;
+    margin-top: 1px;
+}
