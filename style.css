@@ -1,0 +1,37 @@
+body{
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background: linear-gradient(45deg, rgb(69, 74, 77), rgb(73, 123, 121), rgb(65, 111, 146), rgb(41, 159, 151))
+}
+
+.calculadora{
+background: #ccc;
+    width: 250px;
+    margin: 0, auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 25px 25px 20px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    left: 43%;
+    top: 30%;
+}
+
+input[type="button"]{
+    width: 39px;
+    height: 39px;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.textos input{
+    margin-top: 5px;
+    height: 20px;
+    width: 85%;
+}
+
+
